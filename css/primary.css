@@ -14,7 +14,7 @@ h1, ul {
 
 #wrap {
     background:white;
-    width:940px;
+    width:1200px;
     padding:10px;
     margin:0 auto;
 }
@@ -22,9 +22,10 @@ h1, ul {
 #header {
     background:url('../images/144 - SmZDdAq.jpg');
     background-size:cover;
-    max-width:1000px;
+	background-position:34% 34%;
+    max-width:1200px;
     margin-bottom:10px;
-    height:450px;
+    height:200px;
 }
 
 #header > h1 {
@@ -55,6 +56,7 @@ h1, ul {
 
 #menu ul li ul li {
     float:none;
+	padding:0 15px;
 }
 
 #menu ul li ul {
@@ -72,7 +74,7 @@ h1, ul {
 }
 
 #content {
-    width:680px;
+    width:980px;
     float:left;
     padding:10px;
 }
@@ -82,14 +84,37 @@ h1, ul {
 }
 
 #sidebar {
-    width:219px;
+    width:179px;
     float:right;
     padding:10px;
     border-left:1px solid #aaa;
 }
 
+#sidebar ul {
+    list-style:none;
+    height:30px;
+}
+
+#sidebar ul li a {
+    color:#000;
+    text-decoration:none;
+    display:block;
+    padding:0 20px;
+    line-height:30px;
+}
+
+#sidebar ul li:hover ul {
+    display:block;
+}
+
+#sidebar ul li a:hover, #menu ul li a.selected {
+    background:#000;
+    color:#fff;
+}
+
 #content, #sidebar {
-    min-height:200px;
+    min-height:600px;
+	margin-top:50px;
 }
 
 #footer {
