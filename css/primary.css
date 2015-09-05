@@ -1,5 +1,7 @@
 body {
     background:rgba(0,0,0,.9);
+	background:url('../images/1.jpg');
+	background-size:cover;
     font:0.8em Arial,sans-serif;
 }
 
@@ -20,7 +22,7 @@ h1, ul {
 }
 
 #header {
-    background:url('../images/144 - SmZDdAq.jpg');
+    background:url('../images/1.jpg');
     background-size:cover;
 	background-position:34% 34%;
     max-width:1200px;
