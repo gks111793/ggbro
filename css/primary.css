@@ -32,7 +32,7 @@ h1, ul {
 #wrap {
     background:white;
     width:1200px;
-    padding:10px;
+    padding:5px;
     margin:0 auto;
 }
 
@@ -68,7 +68,8 @@ h1, ul {
 }
 
 #menu ul li a {
-    color:#000;
+	background:#000;
+    color:#fff;
     text-decoration:none;
     display:block;
     padding:0 20px;
@@ -89,17 +90,17 @@ h1, ul {
 }
 
 #menu ul li a:hover {
-	background:#000;
-	color:#aaa;
+	background:silver;
+	color:#000;
 }
 
 #menu ul li a.selected {
-    background:#000;
-    color:#fff;
+    background:#fff;
+    color:#000;
 }
 
 #content {
-    width:930px;
+    width:880px;
     float:left;
     padding:10px;
 }
@@ -141,8 +142,8 @@ h1, ul {
 }
 
 #sidebar {
-	font:0.9em proxima-nova, sans-serif;
-    width:229px;
+	font:0.95em proxima-nova, sans-serif;
+    width:279px;
     float:right;
     padding:10px;
     border-left:1px solid #aaa;
@@ -167,7 +168,7 @@ h1, ul {
 
 #sidebar ul li a:hover {
 	background:#000;
-	color:#aaa;
+	color:#fff;
 }
 
 #sidebar ul li a.selected {
@@ -181,7 +182,7 @@ h1, ul {
 }
 
 #footer {
-	font:0.5em proxima-nova, sans-serif;
+	font:0.65em proxima-nova, sans-serif;
     background:#000;
     color:#fff;
     padding:10px;
