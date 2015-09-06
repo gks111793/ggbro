@@ -146,39 +146,44 @@ h1, ul {
     width:279px;
     float:right;
     padding:10px;
-    border-left:1px solid #aaa;
+	border-left:1px solid #aaa;
 }
 
-#sidebar ul {
+#sidebar ul{
     list-style:none;
     height:30px;
 }
 
 #sidebar ul li a {
-    color:#000;
+	background:#000;
+    color:#fff;
     text-decoration:none;
     display:block;
     padding:0 20px;
     line-height:30px;
 }
 
-#sidebar ul li:hover ul {
+#sidebar ul li:hover ul{
     display:block;
 }
 
 #sidebar ul li a:hover {
-	background:#000;
-	color:#fff;
+	background:silver;
+	color:#000;
 }
 
-#sidebar ul li a.selected {
-    background:#000;
-    color:#fff;
+#sidebar div.category {
+	font:1.1em proxima-nova, sans-serif;
+	height:30px;
+	line-height:30px;
+    background:#fff;
+    color:#000;
+	border-bottom:1px solid #000;
 }
 
-#content, #sidebar {
-    min-height:400px;
-	margin-top:30px;
+#content, #cloudbar, #schedbar {
+    min-height:200px;
+	margin-top:15px;
 }
 
 #footer {
