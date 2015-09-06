@@ -1,0 +1,210 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head> 
+	<title>The Sands Atlantic Beach</title>
+	
+    <style type="text/css"> 
+		body
+			{
+				background-image:url('wallpaper.jpg'); zoom: 93%; -webkit-animation: play 7s ease-out -7s infinite alternate forwards;
+			}
+		
+		@-webkit-keyframes play 
+			{
+				from {background-position:0px;} 
+				to {background-position:-350px;background-image:url('sunlight.jpg')}
+			}
+		
+		div {text-align:center;}
+		
+		table.main {display:inline-table;box-shadow:12px 6px 12px -4px;padding:8px 15px 8px 15px;width:1200px;height:1125px;background:rgba(255,255,255,0.5);}
+	
+		table.contacts {position:fixed;visibility:hidden;display:inline-table;box-shadow:12px 6px 12px -4px;padding:15px 15px 15px 15px;vertical-align:top;width:300px;height:600px}
+	
+		td 				{text-align:center;border-style:none;font-family:Arial}
+		td.heading 		{opacity:1;background:rgba(255,255,255,0.2);box-shadow:12px 6px 12px -4px;}
+		td.tabs 		{border-style:solid;box-shadow:12px 6px 12px -4px;background-color:#99FFFF;padding:8px 15px 8px 15px;font-size:17px;font-weight:bold}
+		td.tabs:hover   {background-color:#FFFFFF}
+		td.name		    {background-color:#99FFFF;padding:5px 5px 5px 5px;font-size:18px;opacity:.5;box-shadow:12px 6px 12px -4px;}
+		td.name:hover	{opacity:1;font-weight:bold;cursor:pointer}
+		
+		a					{text-decoration:none;}
+		a:visited			{color:blue;}
+		a:hover				{text-shadow: 2px 2px #000000;}
+		a.downloads			{color:blue;font-size:20px}
+		a.downloads:visited	{color:blue}
+		a.downloads:hover	{background-color:white;font-weight:bold}
+		
+		img.photos{opacity:.8;}
+		img.photos:hover{opacity:1}
+		
+		span.label {font-size:17px;font-weight:bold}
+		span.hide {font-size:18px;font-weight:bold;color:white;float:right;text-shadow:1.75px 1.75px #000000}
+		span.hide:hover {cursor:pointer;text-shadow:3px 3px #000000}
+		span.email {font-size:18px;font-weight:bold;color:blue;float:left}
+		span.email:hover {cursor:pointer}
+		
+	</style> 
+    
+    <script type="text/javascript">
+		var image1 = new Image()
+		image1.src = "http://www.thesandsatlanticbeach.com/images/slideshow/TheSands-NewHomeBanner2.jpg"
+		var image2 = new Image()
+		image2.src = "http://www.thesandsatlanticbeach.com/images/slideshow/TheSands-NewHomeBanner1.jpg"
+		var image3 = new Image()
+		image3.src = "http://www.thesandsatlanticbeach.com/images/stories/TheSands-SocialEventsBanner.jpg"
+		var image4 = new Image()
+		image4.src = "http://www.thesandsatlanticbeach.com/images/stories/TheSands-Sweet16.jpg"
+		var image5 = new Image()
+		image5.src = "http://www.thesandsatlanticbeach.com/images/stories/TheSands-BeachWeddings.jpg"
+		var image6 = new Image()
+		image6.src = "http://www.thesandsatlanticbeach.com/images/stories/TheSands-Mitzvahs.jpg"
+	</script>
+</head>
+
+<body> 
+
+<div>
+	<table class="main">
+		<tr>
+			<td class="heading" colspan="2" rowspan="5">
+				<img src="http://www.thesandsatlanticbeach.com/templates/home/images/logo.png">
+			</td>
+			<td class="heading" colspan="3" rowspan="5">
+				<font size="5">THE SANDS ATLANTIC BEACH</font></br>
+				<font size="2">1395 Beech Street Atlantic Beach, NY 11509</font></br>
+				<font size="3">(516) 371-4000</font></br></br>
+				<img src="accessicon.png" width="19px"> <a class="downloads" href="Database Group 4 Final.accdb">Database</a></br>
+				<img src="ppticon.png" width="19px"><a class="downloads" href="Sand Beach Club Powerpoint.pptx">Presentation</a>
+			</td>
+			<td class="name" onmouseover="changeImage('diana.jpg')" onmouseout="changeImage('profile.jpg')"
+						onclick="changeContact('diana.jpg','Diana Emran','716-777-5404','To graduate and finish my masters at UB and work for a respectable accounting firm.','mailto:dianaemr@buffalo.edu')">Diana Emran </a></td>
+			<td rowspan="5"><img id ="profile" src="profile.jpg" width="150" height="150"></td>
+				<tr><td class="name" onmouseover="changeImage('ethan.jpg')" onmouseout="changeImage('profile.jpg')"
+						onclick="changeContact('ethan.jpg','Ethan Mirenberg','516-376-8894','To achieve high success not only in MGS but also in life.','mailto:ethanmir@buffalo.edu')">Ethan Mirenberg</td></tr>
+				<tr><td class="name" onmouseover="changeImage('chelsea.png')" onmouseout="changeImage('profile.jpg')"
+						onclick="changeContact('chelsea.png','Chelsea Power','315-879-8022','My team goal is for all of us to work collaboratively and efficiently.','mailto:cjpower@buffalo.edu')">Chelsea Power</td></tr>
+				<tr><td class="name" onmouseover="changeImage('kailiang.jpg')" onmouseout="changeImage('profile.jpg')"
+						onclick="changeContact('kailiang.jpg','Kailiang Shi','716-262-5334','To achieve straight As in all the courses.','mailto:kailiang@buffalo.edu')">Kailiang Shi</td></tr>
+				<tr><td class="name" onmouseover="changeImage('gee.jpg')"  onmouseout="changeImage('profile.jpg')"
+						onclick="changeContact('gee.jpg','Gee K. Sung','917-628-6945','The team goal would be to succeed in all of our current and future classes until we obtain our designated jobs.','mailto:geesung@buffalo.edu')"> Gee Sung</td></tr>
+		</tr>
+		<tr>
+			<td colspan="7" style="padding:17px 0 17px 0;"> </td>
+		</tr>
+		<tr>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/">HOME</a></td>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/beach-weddings/">BEACH WEDDINGS</a></td>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/bar-mitzvahs/">BAR MITZVAHS</a></td>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/sweet-16/">SWEET 16</a></td>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/social-events/social-events/">SOCIAL EVENTS</a></td>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/testimonials/">TESTIMONIALS</a></td>
+			<td class="tabs"><a href="http://www.thesandsatlanticbeach.com/contact?jid=1/">CONTACT US</a></td>
+		</tr>
+		<tr>
+			<td colspan="7" style="padding:20px 15px 20px 15px; opacity:.95">
+				<img src="http://www.thesandsatlanticbeach.com/images/slideshow/TheSands-NewHomeBanner1.jpg" name="slide" />
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:white; background:rgba(255,255,255,0.5);padding:15px 15px 15px 15px;" colspan="4">
+				<font color="#FFFFFF" size="8" style="text-shadow: 4px 4px #000000;">ABOUT US</font></br></br>
+				<font color="darkblue" size="4" style="text-shadow: 1px 1px #000000;">
+				With 55 years of memory making events throughout The Sands Atlantic</br> 
+				Beachs storied history, the one and only Sands at Atlantic Beach has been</br> 
+				the site for hundreds of beautiful weddings, Bar/Bat Mitzvahs, Sweet Sixteens,</br> 
+				birthday parties and so much more.</br></br> 
+				The Sands Atlantic Beach is often imitated, but goes unparalleled by any</br> 
+				other venue on Long Island.</br></br> 
+				We pride ourselves on making your special event memorable; our</br> 
+				professional staff will take personal care that every detail is just right.</br> 
+				</font>
+			</td>
+			<td style="padding:15px 15px 15px 15px;" colspan="3">
+				<img class="photos" src="http://www.thesandsatlanticbeach.com/images/stories/the-sands-atlantic-beach.png">
+			</td>
+		</tr>
+	</table>
+	<table class="contacts" id="contacts">
+		<tr>
+			<td>
+				<img id ="contactimg" src="profile.jpg" width="300" height="300">
+			</td>
+			<tr>
+			<td style="padding:15px 15px 15px 15px;background-color:white;background:rgba(255,255,255,0.2)">
+				<span class="label">Name:</span> <span id="contactname"> </span> <br/><br/>
+				<span class="label">Phone: </span> <span id="contactphone"> </span> <br/><br/>
+				<span class="label">Team Goal: </span> <span id="contactteamgoal"> </span>
+			</td>
+			</tr>
+			<tr>
+			<td height="25px">
+				<a id="contactemail"> <span class="email">Send Email</span> <a>
+				<span class="hide" onclick='hide()'>HIDE<span>
+			</td>
+			</tr>
+		</tr>
+	</table>
+
+</div>
+
+	<script type="text/javascript">
+		<!--SLIDESHOW-->
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<6)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",4000);
+        }
+        slideit();
+		
+		<!--PREVIEW IMAGE-->
+		function changeImage(img)
+		{
+			document.getElementById('profile').src=img;
+		}
+		
+		function changeContact(img,name,phone,teamgoal,email)
+		{
+			document.getElementById('contactimg').src=img;
+			document.getElementById('contactname').innerHTML=name;
+			document.getElementById('contactphone').innerHTML=phone;
+			document.getElementById('contactteamgoal').innerHTML=teamgoal;
+			document.getElementById('contactemail').href=email;
+			alterhide(name);
+		}
+		
+		<!--PROFILE SHOW & HIDE-->
+		var profile="";
+		function alterhide(name)
+		{
+			if(profile!=name)
+			{
+				profile=name;
+				unhide();
+			}
+			else
+				hide();
+		}
+		
+		function unhide()
+		{
+			document.getElementById('contacts').style.visibility="visible";
+		}
+		
+		function hide()
+		{
+			document.getElementById('contacts').style.visibility="hidden";
+			profile="";
+		}
+	</script>
+</body>
+</html>
+
