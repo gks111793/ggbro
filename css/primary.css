@@ -1,8 +1,23 @@
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
 body {
     background:rgba(0,0,0,.9);
 	background:url('../images/1.jpg');
 	background-size:cover;
-    font:1.2em proxima-nova, sans-serif;
 }
 
 h1, ul {
@@ -24,15 +39,19 @@ h1, ul {
 #header {
     background:url('../images/1.jpg');
     background-size:cover;
-	background-position:34% 34%;
+	background-position:30% 30%;
     max-width:1200px;
     margin-bottom:10px;
-    height:200px;
+    height:150px;
 }
 
 #header > h1 {
     text-align:center;
     color:#fff;
+}
+
+#menu {
+	font:1.0em proxima-nova, sans-serif;
 }
 
 #menu ul li {
@@ -69,7 +88,12 @@ h1, ul {
     display:block;
 }
 
-#menu ul li a:hover, #menu ul li a.selected {
+#menu ul li a:hover {
+	background:#000;
+	color:#aaa;
+}
+
+#menu ul li a.selected {
     background:#000;
     color:#fff;
 }
@@ -80,8 +104,40 @@ h1, ul {
     padding:10px;
 }
 
-#content h1 {
-    font-size:1.6em;
+#contacts {
+	font:0.8em proxima-nova, sans-serif;
+}
+
+#contacts ul {
+	list-style:none;
+	padding:20px;
+}
+
+#contacts > ul {
+    border-top:1px solid #000;
+}
+
+#contacts ul li {
+	float:left;
+}
+
+#contacts ul li img {
+	width:126px;
+	height:162px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding:0 30px;
+	line-height:15px;
+}
+
+#contacts ul li ul {
+	padding:10px 20px;
+}
+
+#contacts ul li ul li {
+	text-align:center;
+    float:none;
 }
 
 #sidebar {
@@ -109,17 +165,23 @@ h1, ul {
     display:block;
 }
 
-#sidebar ul li a:hover, #sidebar ul li a.selected {
+#sidebar ul li a:hover {
+	background:#000;
+	color:#aaa;
+}
+
+#sidebar ul li a.selected {
     background:#000;
     color:#fff;
 }
 
 #content, #sidebar {
-    min-height:600px;
-	margin-top:50px;
+    min-height:400px;
+	margin-top:30px;
 }
 
 #footer {
+	font:0.5em proxima-nova, sans-serif;
     background:#000;
     color:#fff;
     padding:10px;
