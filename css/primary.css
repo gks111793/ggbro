@@ -142,6 +142,7 @@ h1, ul {
 }
 
 #sidebar {
+	text-align:center;
 	font:0.95em proxima-nova, sans-serif;
     width:279px;
     float:right;
@@ -173,9 +174,7 @@ h1, ul {
 }
 
 #sidebar div.category {
-	font:1.1em proxima-nova, sans-serif;
-	height:30px;
-	line-height:30px;
+	font:1.3em proxima-nova, sans-serif;
     background:#fff;
     color:#000;
 	border-bottom:1px solid #000;
