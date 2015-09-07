@@ -99,7 +99,7 @@ h1, ul {
     color:#000;
 }
 
-#content {
+#calendar {
     width:880px;
     float:left;
     padding:10px;
@@ -181,7 +181,7 @@ h1, ul {
 	border-bottom:1px solid #000;
 }
 
-#content, #cloudbar, #schedbar {
+#calendar, #cloudbar, #schedbar {
     min-height:200px;
 	margin-top:15px;
 }
